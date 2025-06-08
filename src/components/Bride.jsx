@@ -1,7 +1,7 @@
 import React from 'react'
 import Br from '../images/Bride/Bride1.png'
 import instagram from '../images/Social_network/Instagram.png'
-import facebook from '../images/Social_network/facebook.png'
+import facebook from '../images/Social_network/Facebook.png'
 import whatsapp from '../images/Social_network/Whatsapp1.png'
 
 const Bride = () => {
