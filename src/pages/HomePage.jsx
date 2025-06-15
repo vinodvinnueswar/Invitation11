@@ -2,9 +2,14 @@ import React from 'react'
 import Intro from '../components/Intro'
 import Bride from '../components/Bride'
 import Groom from '../components/Groom'
-import Gallery from '../components/Gallery'
+
 import Location from '../components/Location'
 import Contact from '../components/Contact'
+import Gallery from '../components/Gallery'
+
+
+
+
 
 const HomePage = () => {
   return (
