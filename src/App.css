@@ -270,25 +270,25 @@ background: radial-gradient(circle, rgba(209, 209, 13, 1) 0%, rgba(212, 173, 0, 
 background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
 
 }
-.Gallery{
-  margin-top: 70px;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-     -webkit-column-width:20% ;
-     -moz-column-width: 13%;
-    column-width: 13%;
-    padding: 0 12px;
+.lg-react-element {
+  column-count: 3;
+  column-gap: 10px;
 }
+.Gallery{
+  margin-top: 20px;
+  width: 80%;
+}
+
 .Gallery_Container h4{
   margin-top: 70px;
   font-size: 30px;
 }
 .BRGR_images img{
-  height: 200px;
-  width: 200px;
-  border:  2px solid green
-  
+  max-width: 100%;
+  display: block;
+  padding: 5px 0px;
+  border-radius: 20px;
+  transition: transform 0.2s;
 }
 .BRGR_images .active img{
   border: 4px solid green;
@@ -669,7 +669,7 @@ color: wheat;
   
   /* Gallery Container */
   .Gallery_Container{
-    height: 110vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -681,24 +681,26 @@ color: wheat;
   
   }
   .Gallery{
-    margin-top: 70px;
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-      column-count: 2;
-       -webkit-column-width:10% ;
-       -moz-column-width: 5%;
-      column-width: 5%;
-      padding: 0 2px;
+     width: 40%;
   }
+  .lg-react-element {
+    column-count: 3;
+    column-gap: 10px;
+}
   .Gallery_Container h4{
     margin-top: 70px;
     font-size: 30px;
   }
   .BRGR_images img{
-    height: 150px;
-    width: 150px;
-    border:  2px solid green
-    
+    max-width: 100%;
+    display: block;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+  }
+  .BRGR_images img:hover {
+    filter: opacity(.9);
+    transform: scale(1.01);
   }
   .BRGR_images .active img{
     border: 4px solid green;
@@ -706,7 +708,7 @@ color: wheat;
   
   /* Location */
   .Location_Container{
-    height: 100vh;
+    height:70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -718,7 +720,7 @@ color: wheat;
    box-shadow: 5px 8px 6px 0px black;
   }
   .Location_Container h4{
-    margin-top: -30px;
+    margin-top: 30px;
     font-size: 25px;
   }
   .Location{
@@ -1080,7 +1082,7 @@ color: wheat;
   
   /* Gallery Container */
   .Gallery_Container{
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1092,24 +1094,27 @@ color: wheat;
   
   }
   .Gallery{
-    margin-top: 70px;
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-      column-count: 2;
-       -webkit-column-width:10% ;
-       -moz-column-width: 5%;
-      column-width: 5%;
-      padding: 0 2px;
+   width: 40%;
   }
+  .lg-react-element {
+    column-count: 3;
+    column-gap: 10px;
+}
   .Gallery_Container h4{
     margin-top: 70px;
     font-size: 30px;
   }
   .BRGR_images img{
-    height: 150px;
-    width: 150px;
-    border:  2px solid green
+    max-width: 100%;
+    display: block;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: transform 0.2s;
     
+  }
+  .BRGR_images img:hover {
+    filter: opacity(.9);
+    transform: scale(1.01);
   }
   .BRGR_images .active img{
     border: 4px solid green;
@@ -1117,7 +1122,7 @@ color: wheat;
   
   /* Location */
   .Location_Container{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1503,25 +1508,28 @@ color: wheat;
   
   }
   .Gallery{
-    margin-top: 70px;
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-      column-count: 2;
-       -webkit-column-width:10% ;
-       -moz-column-width: 5%;
-      column-width: 5%;
-      padding: 0 2px;
+    width: 40%;
   }
+  .lg-react-element {
+    column-count: 3;
+    column-gap: 10px;
+}
   .Gallery_Container h4{
     margin-top: 70px;
     font-size: 30px;
   }
   .BRGR_images img{
-    height: 150px;
-    width: 150px;
-    border:  2px solid green
-    
+    max-width: 100%;
+    display: block;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: transform 0.2s;
   }
+
+  .BRGR_images img:hover {
+  filter: opacity(.9);
+  transform: scale(1.01);
+}
   .BRGR_images .active img{
     border: 4px solid green;
   }
@@ -1648,36 +1656,5 @@ color: wheat;
   background: rgb(93, 5, 5);
   color: wheat;
   
-  }
-}
-
-/* Hide the entire app in landscape mode */
-@media screen and (orientation: landscape) {
-  #root {
-    display: none;
-  }
-
-  .landscape-warning {
-    display: block;
-    color: #2A7B9B;
-  }
-}
-
-@media screen and (orientation: portrait) {
-  .landscape-warning {
-    display: none;
-    color: #2A7B9B;
-  }
-}
-
-/* Hide the entire app in landscape mode */
-@media screen and (min-width:768px) {
-  #root {
-    display: none;
-   background-color: #2A7B9B;
-  }
-
-  .landscape-warning {
-    display: block;
   }
 }
