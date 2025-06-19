@@ -669,7 +669,7 @@ color: wheat;
   
   /* Gallery Container */
   .Gallery_Container{
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -708,7 +708,7 @@ color: wheat;
   
   /* Location */
   .Location_Container{
-    height:70vh;
+    height:100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1082,7 +1082,7 @@ color: wheat;
   
   /* Gallery Container */
   .Gallery_Container{
-    height: 60vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1656,5 +1656,37 @@ color: wheat;
   background: rgb(93, 5, 5);
   color: wheat;
   
+  }
+}
+
+
+/* Hide the entire app in landscape mode */
+@media screen and (orientation: landscape) {
+  #root {
+    display: none;
+  }
+
+  .landscape-warning {
+    display: block;
+    color: #2A7B9B;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .landscape-warning {
+    display: none;
+    color: #2A7B9B;
+  }
+}
+
+/* Hide the entire app in landscape mode */
+@media screen and (min-width:768px) {
+  #root {
+    display: none;
+   background-color: #2A7B9B;
+  }
+
+  .landscape-warning {
+    display: block;
   }
 }
