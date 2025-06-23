@@ -72,11 +72,11 @@ import lgRotate from 'lightgallery/plugins/rotate';
             {
                 data.map((item , index) => {
                     return(
-                        <div className="BRGR_images">
-                           <a href={item.image} key={index}>
+                    
+                           <a className="BRGR_images" href={item.image} key={index}>
                            <img src={item.image} alt={item.alt} />
                            </a>
-                        </div>
+        
                     )
                 })
             }

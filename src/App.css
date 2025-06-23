@@ -674,7 +674,6 @@ color: wheat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 8px 6px 0px black;
     color: white;
     background: #fae457;
   background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
@@ -716,8 +715,7 @@ color: wheat;
     color: white;
     background: #fae457;
     background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
-    
-   box-shadow: 5px 8px 6px 0px black;
+
   }
   .Location_Container h4{
     margin-top: 30px;
@@ -780,7 +778,6 @@ color: wheat;
   padding: 80px;
   font-size: 20px;
   color: rgb(93, 5, 5);
-  box-shadow: 5px 8px 0px 0px black;
   background: #fae457;
   background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
   }
@@ -1082,12 +1079,11 @@ color: wheat;
   
   /* Gallery Container */
   .Gallery_Container{
-    height: 75vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 8px 6px 0px black;
     color: white;
     background: #fae457;
   background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
@@ -1130,8 +1126,7 @@ color: wheat;
     color: white;
     background: #fae457;
     background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
-    
-   box-shadow: 5px 8px 6px 0px black;
+  
   }
   .Location_Container h4{
     margin-top: 20px;
@@ -1194,7 +1189,6 @@ color: wheat;
   padding: 80px;
   font-size: 20px;
   color: rgb(93, 5, 5);
-  box-shadow: 5px 8px 0px 0px black;
   background: #fae457;
   background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
   }
@@ -1501,7 +1495,6 @@ color: wheat;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 8px 6px 0px black;
     color: white;
     background: #fae457;
   background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
@@ -1545,7 +1538,6 @@ color: wheat;
     background: #fae457;
     background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
     
-   box-shadow: 5px 8px 6px 0px black;
   }
   .Location_Container h4{
     margin-top: -30px;
@@ -1608,7 +1600,6 @@ color: wheat;
   padding: 80px;
   font-size: 20px;
   color: rgb(93, 5, 5);
-  box-shadow: 5px 8px 0px 0px black;
   background: #fae457;
   background: radial-gradient(circle, rgba(250, 228, 87, 1) 0%, rgba(255, 232, 130, 1) 0%, rgba(179, 143, 2, 1) 100%);
   }
