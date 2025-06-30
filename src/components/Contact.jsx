@@ -7,6 +7,7 @@ import Instagram from '../images/Social_network/Instagram.png'
 import whatsapp from '../images/Social_network/Whatsapp1.png'
 import Share from './Share'
 
+
 const Contact = () => {
   return (
     <div className="social_Share">
