@@ -8,6 +8,7 @@ import whatsapp from '../images/Social_network/Whatsapp1.png'
 import Share from './Share'
 
 
+
 const Contact = () => {
   return (
     <div className="social_Share">
@@ -16,7 +17,7 @@ const Contact = () => {
         </div>
         <h3>Social Share</h3>
         
-     <Share/>
+  <Share/>
 
 
    <div className="network">
